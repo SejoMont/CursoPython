@@ -52,6 +52,7 @@ def operacion(funcion, num1, num2):
     return funcion(num1, num2)
 
 print(operacion(multiplicacion, 10, 20))
+print(operacion(modulo, 10, 20))
 
 # 7. Define una función que reciba el nombre y email de una persona. Si no recibe email, se asignará “Sin
 #    determinar”. La función debe imprimir el nombre y email de la persona.

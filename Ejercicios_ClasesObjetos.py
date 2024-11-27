@@ -47,7 +47,7 @@ class Vehicle:
         self.max_speed = max_speed
         self.km = km
     
-    # 3.3. Método para imprimir la capacidad de cualquier vehículo
+    # 2.3. Método para imprimir la capacidad de cualquier vehículo
     def print_capacidad(self, capacity):
         print(f"La capacidad de {self.name} es de {capacity}")
 
